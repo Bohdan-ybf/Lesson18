@@ -1,0 +1,95 @@
+body {
+    background-image: url(/Lesson18/331.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.705);
+}
+
+.box:hover {
+    background: linear-gradient(45deg, #fddb92, #d1fdff);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.point_red {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.point_blue {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.point_purple {
+    width: 10px;
+    height: 10px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.point_green {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.point_yellow {
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.point_orange {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.point_pink {
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    border-radius: 50%;
+}
